@@ -155,9 +155,20 @@ img{
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
 }
+.containe {
+
+    max-width: 768px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
 .grid{
     display:grid;
     gap:1.5rem
+}
+.send_message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header{
     width: 100%;
@@ -283,7 +294,7 @@ color:var(--first-color) ;
 }
 .home_blob{
     width:200px;
-fill: var(--first-color);
+fill: white;
 }
 .home_blob-img{
     width:170px;
@@ -416,8 +427,14 @@ fill: var(--first-color);
 
 /*==================== SKILLS ====================*/
 .skills_container{
+    max-width: 790px;
     row-gap:0;
+    display: flex;
+    justify-content: center;
 
+}
+.skills_content{
+    width:40vw;
 }
 .skills_header{
     display:flex;
@@ -761,7 +778,7 @@ right: -.5rem;
 
 /*==================== CONTACT ME ====================*/
 .contact_container{
-    row-gap: 3rem;
+    row-gap: 10rem;
 
 }
 .contact_information{
